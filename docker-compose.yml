@@ -1,6 +1,4 @@
 services:
   py:
-    image: ionuttube:latest
+    image: ionutbirsanu/appyoutube:1.0
     build: .
-    volumes:
-      - ./app:/usr/src/app
